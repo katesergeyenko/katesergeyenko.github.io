@@ -1,0 +1,171 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <title>About us</title>
+
+    <script src="dataModule.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+</head>
+
+<body>
+
+<!--<script>
+    alert(dataModule.name);
+    dataModule.test("Hello");
+    alert(dataModule.count(photoPosts));
+    console.log(dataModule.name + " -> " + dataModule.count(photoPosts));
+
+    function createPostBlock() {
+        var div = document.createElement("div");
+        div.className = "like";
+        div.id = "myDiv";
+        var img = document.createElement("img");
+        img.src = "posts/post1.jpg";
+        div.appendChild(img);
+        document.body.appendChild(div);
+    }
+
+    createPostBlock();
+</script>-->
+
+
+<div class="wrapper" align="center">
+    <div class="header">
+        <a href="index.html"> <img src="images\around-logo.png" alt="Around"> </a>
+        <hr>
+    </div>
+
+    <div class="person-login">
+        <a href="login.html"> <img src="images\person.png" width="50" height="50"></a>
+        <h3><a href="login.html">Login</a></h3>
+    </div>
+
+    <div class="main">
+        <table class="sort-table">
+            <tr>
+                <td>
+                    <form action="" method="post" class="search">
+                        <input type="search" name="" placeholder="Search by hashTags" class="input"/>
+                        <input type="submit" name="" value="" class="submit"/>
+                    </form>
+                </td>
+                <td>
+                    <form action="" method="post" class="search">
+                        <input type="search" name="" placeholder="Search by author" class="input"/>
+                        <input type="submit" name="" value="" class="submit"/>
+                    </form>
+                </td>
+                <td>
+                    <form action="" method="post" class="search-by-createdAt">
+                        <input type="datetime-local" name="createdAt"/>
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+        <!-- 1 -->
+        <table class="posts-table">
+            <tr>
+                <td class="post-left">
+                    <div class="owner">
+                        <a href="userPage.html"> <img src="personalPhotos/personalPhoto1.jpg" alt="There is personal photo" class="userPhoto"></a>
+                        <h3><a href="userPage.html">Kate</a></h3>
+                    </div>
+                    <div class="like">
+                    </div>
+                </td>
+
+                <td class="post-center"><img class="photo-post" src="posts/post1.jpg"></td>
+
+                <td class="post-right">
+                    <div class="post-description" >
+                        <h3>�We travel, some of us forever, to seek other places, other lives, other souls.� � Anais Nin</h3>
+                    </div>
+                    <div class="post-tags">
+                        <div class="hashTags-form">travel</div>
+                        <div class="hashTags-form">Nin</div>
+                        <div class="hashTags-form">life</div>
+                        <div class="hashTags-form">new places</div>
+                    </div>
+                    <div>
+                        <time datetime="2018-02-25" class="post-time">18:23 25 feb 18</time>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <!-- 2 -->
+        <table class="posts-table">
+            <tr>
+                <td class="post-left">
+                    <div class="owner">
+                        <a href="userPage.html"> <img src="personalPhotos/personalPhoto2.jpg" alt="There is personal photo" class="userPhoto"></a>
+                        <h3><a href="userPage.html">Kate</a></h3>
+                    </div>
+                    <div class="like">
+                    </div>
+                </td>
+
+                <td class="post-center"><img class="photo-post" src="posts/post9.jpg"></td>
+
+                <td class="post-right">
+                    <div class="post-description" >
+                        <h3>�For my part, I travel not to go anywhere, but to go. I travel for travel�s sake. The great affair is to move.� � Robert Louis Stevenson</h3>
+                    </div>
+                    <div class="post-tags">
+                        <div class="hashTags-form">travel</div>
+                        <div class="hashTags-form">Stevenson</div>
+                    </div>
+                    <div>
+                        <time datetime="2018-02-25" class="post-time">18:23 25 feb 18</time>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <!-- 3 -->
+        <table class="posts-table">
+            <tr>
+                <td class="post-left">
+                    <div class="owner">
+                        <a href="userPage.html"> <img src="personalPhotos/personalPhoto3.jpg" alt="There is personal photo" class="userPhoto"></a>
+                        <h3><a href="userPage.html">Kate</a></h3>
+                    </div>
+                    <div class="like">
+                    </div>
+                </td>
+
+                <td class="post-center"><img class="photo-post" src="posts/post5.jpg"></td>
+
+                <td class="post-right">
+                    <div class="post-description" >
+                        <h3>�We travel not to escape life, but for life not to escape us.� � Anonymous</h3>
+                    </div>
+                    <div class="post-tags">
+                        <div class="hashTags-form">travel</div>
+                        <div class="hashTags-form">Anonymous</div>
+                        <div class="hashTags-form">someone said it</div>
+                    </div>
+                    <div>
+                        <time datetime="2018-02-25" class="post-time">18:23 25 feb 18</time>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+
+        <div class="more">
+            <a class="btn"><p>More</p></a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <hr>
+        <a href="about.html">About us</a>
+    </div>
+</div>
+</body>
